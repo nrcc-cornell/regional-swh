@@ -1,6 +1,5 @@
 .DS_Store
-/data
-/results
+/data/*
 /**/__pycache__
 /**/*.pyc
 /.vscode
