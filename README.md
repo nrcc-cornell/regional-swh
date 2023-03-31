@@ -14,11 +14,7 @@ Scripts to retrieve data from Climate Data Store Application Program Interface (
 
 ## Usage
 1. Set up requirements
-2. Ensure that the conda environment is active
-
-Where XXXX = [storm|wave]:
-3. In `XXXX_scripts/fetch_XXXXs_data.py` and `XXXX_scripts/process_XXXXs_data.py` set the start_year and end_year variables to your desired years
-4. Run `python XXXX_scripts/fetch_XXXXs_data.py` to fetch data
-   - Data can be found in the `data` directory
-5. Run `python XXXX_scripts/process_XXXXs_data.py` to process data
-   - Results can be found in output on commandline as number of instances by year from start_year to end_year
+2. Edit `config.py` to suit your needs.
+3. Ensure that the conda environment is active
+4. Run `python main.py`
+5. Results can be found in the `results` directory
